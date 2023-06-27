@@ -13,9 +13,11 @@ https://www.tooplate.com/view/2122-nano-folio
     font-weight: 400;
     font-style: normal;
 } */
+/* index.css 📂 */
+
+/* styles.css */
 
 html { overflow-x: hidden; }
-
 
 .container-fluid {
     font-weight:800;
@@ -41,6 +43,7 @@ html { overflow-x: hidden; }
 
 .container {
     padding-top:40px;
+    padding-bottom:40px;
 }
 
 .m1{
@@ -65,14 +68,6 @@ body {
     overflow-x: hidden;
 }
 
-a {
-    text-decoration: none;
-    transition: all 0.3s ease;
-    color: #38CCCC;
-}
-
-a:hover { color: #30ADAD; }
-
 .cardlist{
     padding-left:20px;
     padding-right:20px;
@@ -92,3 +87,16 @@ a:hover { color: #30ADAD; }
 .tm-border-rounded { border-radius: 15px; }
 
 
+.footer {
+    background-color: rgb(248, 248, 248);
+    height: 150px;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:end;
+    margin-bottom:0;
+}
+
+.ft-m {
+    text-align: center;
+}
